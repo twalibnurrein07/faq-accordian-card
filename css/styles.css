@@ -2,25 +2,65 @@ body{
   font-family: 'Kumbh Sans', sans-serif;
   background-color: hsl(240,73%,65%);
 }
+h1{
+  font-weight: 700;
+}
+h6{
+    color:hsl(237,12%,33);
+    font-weight: 400;
+}
+h6:hover{
+  color:red;
+}
+button{
+  background-color:white;
+  border-color: white;
+}
 .container{
-  padding: 15rem;
+  padding: 12rem;
+background-color: red;
+position: relative;
+z-index: 1;
+
 }
 .card{
   height:400px;
   border-radius: 12px;
 }
-.col-md-6{
+.col.md-6{
+  padding-top: 20px;
+}
+.col-md-6.firstcol{
+  
 
-  padding-top: 30px;
+}
+
+.img-fluid{
+  height:500px;
+  position: absolute;
+  right:480px;
+  bottom:-10px;
+
 }
 .one{
   padding-top: 80px;
 }
-.img-overlaid{
+.desktop-overlaid{
   height:200px;
   width: auto;
+  position: relative;
+  right:50px;
+  overflow: hidden;
+
 }
 .box-overlaid{
   height: 90px;
   width: auto;
+  position: relative;
+  right:55px;
+  top:145px;
+}
+.tns{
+  padding:6px 0 6px 0;
+  color:hsl(237,12%,33%);
 }
