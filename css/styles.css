@@ -18,7 +18,7 @@ button{
 }
 .container{
   padding: 12rem;
-background-color: red;
+
 position: relative;
 z-index: 1;
 
@@ -31,7 +31,7 @@ z-index: 1;
   padding-top: 20px;
 }
 .col-md-6.firstcol{
-  
+
 
 }
 
