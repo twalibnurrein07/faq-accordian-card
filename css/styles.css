@@ -18,21 +18,21 @@ button{
 }
 .container{
   padding: 12rem;
-/* background-color: #fff;*/
- z-index: 10;
-position: relative;
+
+
 }
 .card{
   height:450px;
   border-radius: 12px;
-
+position: relative;
 }
 .col.md-6{
   padding-top: 20px;
 }
-.col-md-6.firstcol{
-
-
+.col-lg-6.one{
+background-image: url("../images/bg-pattern-desktop.svg");
+background-size: 750px;
+background-position: -370px -180px ;
 }
 
 .img-fluid{
@@ -46,7 +46,7 @@ position: relative;
   padding-top: 80px;
 }
 .desktop-overlaid{
-  height:200px;
+  height:300px;
   width: auto;
   position: relative;
   right:50px;
