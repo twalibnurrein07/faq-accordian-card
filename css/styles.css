@@ -22,18 +22,22 @@ button{
 
 }
 .card{
-  height:450px;
+  max-width: 95rem;
+  height:auto;
   border-radius: 12px;
 position: relative;
 }
 .col.md-6{
   padding-top: 20px;
 }
-.col-lg-6.one{
+.first{
 background-image: url("../images/bg-pattern-desktop.svg");
 background-size: 750px;
-background-position: -370px -180px ;
+background-position: -360px -180px ;
+overflow: hidden;
 }
+
+
 
 .img-fluid{
   height:500px;
@@ -50,17 +54,52 @@ background-position: -370px -180px ;
   width: auto;
   position: relative;
   right:50px;
-  overflow: hidden;
-
-}
+  top:80px;
+  }
 .box-overlaid{
-  height: 90px;
+  height: 190px;
   width: auto;
   position: relative;
-  right:55px;
-  top:145px;
+  right:125px;
+  top:165px;
 }
 .tns{
   padding:6px 0 6px 0;
   color:hsl(237,12%,33%);
+}
+
+@media only screen and (min-width:375px) and (max-width:990px){
+  .card{
+    width: 400px;
+  }
+  .col{
+    padding:0 15px;
+    padding-left: 25px;
+  }
+  .first{
+  background-image: url("../images/bg-pattern-desktop.svg");
+  background-size: 380px;
+  background-position: -360px -250px ;
+  overflow: hidden;
+  height: 200px;
+  }
+  .desktop-overlaid{
+    height: 200px!important;
+    position: absolute;
+    left:50px;
+    top:-130px;
+  }
+  .box-overlaid{
+    height: 100px;
+    width: auto;
+    position: relative;
+    right:-25px;
+    top:-65px;
+  }
+}
+
+@media only screen and (min-width:991px) and (max-width:1220px){
+  .card{
+    width: 760px;
+  }
 }
