@@ -1,6 +1,32 @@
 
-$(".dropdown-toggle").on("click",function(){
-  console.log("clicked");
-  $(".dropdown-toggle").css("font-weight","bolder");
-  $(".dropdown-menu").html("No more than 2GB.All files in your account must fit your alloted space.");
+
+$(".members").on("click",function(){
+  console.log(this.innerHTML);
+  $(".members").css("font-weight","bolder");
+  $(".memberparagraph").css("visibility","visible");
+    $(".one").css("height","68px");
+})
+$(".file-size").on("click",function(){
+  console.log(this);
+  $(".file-size").css("font-weight","bolder");
+  $(".file-sizeparagraph").css("visibility","visible");
+    $(".two").css("height","68px");
+})
+$(".password").on("click",function(){
+  console.log(this);
+  $(".password").css("font-weight","bolder");
+  $(".passwordparagraph").css("visibility","visible");
+    $(".three").css("height","68px");
+})
+$(".subscription").on("click",function(){
+  console.log(this);
+  $(".subscription").css("font-weight","bolder");
+  $(".subscriptionparagraph").css("visibility","visible");
+    $(".four").css("height","68px");
+})
+$(".support").on("click",function(){
+  console.log(this);
+  $(".support").css("font-weight","bolder");
+  $(".supportparagraph").css("visibility","visible");
+    $(".five").css("height","68px");
 })
